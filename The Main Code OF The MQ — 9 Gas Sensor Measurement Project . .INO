@@ -33,10 +33,10 @@ void loop () {
  
   int TheSensorValue = analogRead (TheA0);
   TheSensorVolt = ( (float) TheSensorValue / 1024) * 5.0;
-  TheRSGas = (5.0 - TheSensorVolt) / TheSensorVolt;                                                                     // Depend ON RL ON Your Module
+  TheRSGas = (5.0 - TheSensorVolt) / TheSensorVolt;                                                                     // Depend ON RL ON Your Module .
 
 
-  TheRatio = TheRSGas / TheR0;                                                                                       // The Ratio = The RS / The R0
+  TheRatio = TheRSGas / TheR0;                                                                                       // The Ratio = The RS / The R0 .
 
 
                                                                                                                   // ------------------------------------------------------------ //
