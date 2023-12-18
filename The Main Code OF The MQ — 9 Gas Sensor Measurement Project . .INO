@@ -31,7 +31,7 @@ void loop () {
                                                                                                                          . . // . . — Replace The Name " The R0 " With The Value OF The R0 IN The Demo OF First Test — . . // . .
   float TheR0 = 0.91;
  
-  int TheSensorValue = analogRead (TheA0);
+  int TheSensorValue = analogRead (A0);
   TheSensorVolt = ( (float) TheSensorValue / 1024) * 5.0;
   TheRSGas = (5.0 - TheSensorVolt) / TheSensorVolt;                                                                     // Depend ON RL ON Your Module .
 
